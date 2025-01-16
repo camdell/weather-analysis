@@ -33,10 +33,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18.x
-      - name: Install MyST Markdown
-        run: npm install -g mystmd
-      - name: Build HTML Assets
-        run: myst build --html
+      - uses: prefix-dev/setup-pixi@v0.8.1
+      - run: pixi run myst build --html --execute
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
