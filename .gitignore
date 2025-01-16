@@ -4,3 +4,7 @@
 *.egg-info
 data/weather.parquet
 data/weather.csv
+
+# MyST build outputs
+_build
+.ipynb_checkpoints

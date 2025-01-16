@@ -1,0 +1,18 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: e61d93b0-51c7-4c53-ae79-c0fbab35470d
+  title: "Camerons Weather Analysis"
+  # description:
+  # keywords: []
+  authors:
+    - name: Cameron Riddell
+      orcid: 0000-0001-8950-0375
+      email: cameron@dutc.io
+  # github:
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: article-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
