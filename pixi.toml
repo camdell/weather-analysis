@@ -1,0 +1,17 @@
+[project]
+authors = ["Cameron Riddell <cameron@dutc.io>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "weather-project"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.12.0,<3.13"
+pandas = ">=2.2.3,<3"
+matplotlib = ">=3.10.0,<4"
+jupyterlab = ">=4.3.4,<5"
+pyarrow = ">=18.1.0,<19"
+fastparquet = ">=2024.11.0,<2025"
