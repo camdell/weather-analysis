@@ -2,7 +2,6 @@
 # pixi environments
 .pixi
 *.egg-info
-data/weather.parquet
 data/weather.csv
 
 # MyST build outputs
